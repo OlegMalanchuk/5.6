@@ -14,16 +14,17 @@ public class Main
         System.out.println(" ");
         System.out.println("2)");
         int num =  95;
-        int a = num / 10;
-        int b = num % 10;
+        int a = num / 10;// через те що інт заокруглює до коми
+        int b = num % 10;//остача від ділення
         int sum = a + b ;
         System.out.println(a +"\n"+b+"\n"+sum);
 
         System.out.println(" ");
         System.out.println("3)");
         double n = 2.49;
-
-        System.out.println(Math.round(a));
+        int xx ;
+        xx = (int) n;//явне привеення
+        System.out.println(xx);//е можна робити через цю функцію Math.round
 
 
 
